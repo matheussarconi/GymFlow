@@ -1,0 +1,2 @@
+PARA RESETAR O TOKEN: localStorage.removeItem('userToke')
+PARA BAIXAR TUDO: npm install express cors path mysql2 multer bcryptjs jsonwebtoken dotenv
