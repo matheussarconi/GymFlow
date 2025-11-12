@@ -117,7 +117,10 @@ GymFlow/
     ```
     *(O arquivo `readme.md` original sugere a instalação de `@react-navigation/native`, `@react-navigation/native-stack`, `react-native-screens`, `react-native-safe-area-context` e `@expo/metro-runtime`)*
 3.  Inicie o aplicativo Expo:
-    ```ba## 💻 Como Executar o Projeto
+    ```bash
+    npx expo start --web
+    ```
+4. Ajuste o tamanho da tela através da opção de inspecionar para 430 X 930
 
 Para colocar o GymFlow em funcionamento, você precisará configurar o ambiente de desenvolvimento, instalar as dependências do Backend (API) e do Frontend (Aplicativo Móvel), e configurar o banco de dados.
 
