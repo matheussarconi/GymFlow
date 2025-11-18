@@ -45,7 +45,7 @@ const EditProfileScreen = ({ navigation }) => {
           setProfilePictureUrl(null);
         }
       } else {
-        Alert.alert('Erro', 'Não foi possível carregar seus dados.');
+        Alert.alert('Erro');
       }
     } catch (error) {
       console.error('Erro ao carregar usuário:', error);
